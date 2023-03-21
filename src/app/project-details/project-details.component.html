@@ -1,0 +1,28 @@
+
+<div class="loader" *ngIf="is_loading">
+
+    <img class="loaderimage"src="assets/loader_kalia .gif">
+</div>
+
+
+
+    
+        
+    <div   *ngIf="!isMobileResolution && !is_loading" class="container">
+    <app-carousel [slides]="slides"></app-carousel>
+    <div class="details-right">
+        <span class="heading">First Project</span>
+        20/3/2020
+        </div>
+ 
+ </div>
+ <!--for mobile phone-->
+ <div *ngIf="isMobileResolution && !is_loading ">
+    <div class="container-mobile">
+        <app-corousel-mobile [slides]="slides"></app-corousel-mobile>
+        <div class="details-bottom-phone">
+            First Project
+        </div>
+     </div>
+
+     </div>

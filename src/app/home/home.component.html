@@ -1,0 +1,19 @@
+<div class="loader" *ngIf="is_loading">
+
+    <img class="loaderimage"src="assets/loader_kalia .gif">
+</div>
+<div  class="cover" *ngIf="!isMobileResolution && !is_loading">
+<img class="coverphoto" src="{{url}}">
+</div>
+<div class="cover-phone" *ngIf="isMobileResolution && !is_loading">
+<img class="coverphotophone"  src="{{url}}"><br/>
+</div>
+<span class="header-text-message-ceo"></span>
+
+<div class="msg-from-ceo-left">
+   <q class="quotes" *ngIf="!isMobileResolution && !is_loading"> Message from ceo will come here </q>    
+   <q class="quotes-phone" *ngIf="isMobileResolution && !is_loading"> Message from ceo will come here </q>    - Ram Kumar Kalia 
+    
+</div>
+
+

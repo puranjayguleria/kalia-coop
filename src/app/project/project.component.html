@@ -1,0 +1,20 @@
+<div class="loader" *ngIf="is_loading">
+
+    <img class="loaderimage"src="assets/loader_kalia .gif">
+</div>
+<mat-grid-list *ngIf="!is_loading" cols="3" rowHeight="2:2" [gutterSize]="'2%'" >
+    <mat-grid-tile *ngFor="let project of projects" [routerLink]="['/project-details', project._id]" appHoverdirective>
+    
+  
+
+
+    
+    <img height="100%" width="100%" src="{{project.image_url}}" >
+    <div  class="imagetext">
+        {{project.name}}
+
+    </div>
+    
+  
+  </mat-grid-tile>
+</mat-grid-list>

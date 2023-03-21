@@ -1,0 +1,58 @@
+.cover{
+    width:100%;
+    height:100vh;
+    
+}
+.cover-phone{
+    width:100%;
+    height:50vh;
+}
+    
+.cover .coverphoto{
+    width:100%;
+    
+    height:90vh;
+    background-size: cover;
+}
+.cover-phone .coverphotophone{
+    width:100%;
+    
+    height:40vh;
+}
+.loader{
+    width:100%;
+    height:100vh;
+
+}
+.loader .loaderimage{
+    
+    height: 250px;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -125px;
+    position: absolute;
+    top: 50%;
+    width: 250px;
+    
+ 
+}
+.header-text-message-ceo{
+    color:black;
+    font-size: 55px;
+}
+.msg-from-ceo-left{
+    
+    width:100%;
+    height:40vh;
+    
+}
+.quotes {
+    color: gray;
+    font-style: italic;
+    font-size:80px;
+  }
+  .quotes-phone {
+    color: gray;
+    font-style: italic;
+    font-size:30px;
+  }
